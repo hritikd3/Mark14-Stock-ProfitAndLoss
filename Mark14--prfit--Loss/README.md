@@ -1,0 +1,1 @@
+Check the profit/loss and percentage of your stocks easily

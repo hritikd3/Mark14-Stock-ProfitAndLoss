@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit & Loss on Stocks</title>
+    <link rel="stylesheet" href="style.css">
+    
+        
+</head>
+
+<body class="bg">
+        <nav>
+            <div class="brand"><a class="tag" href="/">Profit / Loss on Stocks</a></div>
+            <div><a href="https://github.com/simran61"><i class="fab fa-github"></i></a></div>
+        </nav>
+
+        <main>
+		<img src="logo.svg" width="300px" align="bottom">
+            <h1>Find Profit/Loss on Stocks?</h1>
+            <input type="number" class="purchase" placeholder="Enter Cost Price" ><br>
+            <input type="number" class="quantity" placeholder="Enter Stocks Quantity" min="0"><br>
+            <input type="number" class="current" placeholder="Enter Current Price"><br>
+            <button class="btn"><span>CACULATE</span></button>
+            <div class="result" id="after_submit"></div>
+         <div style="padding: 0;" id="profit">
+                <img src="images/profit.gif" alt="">
+            </div>
+            <div style="padding: 0;" id="loss">
+                <img src="images/loss.gif" alt="">
+            </div>
+            <div style="padding: 0;" id="ok">
+                <img src="images/ok.gif" alt="">
+            </div>
+            <img id="graph" src="images/stockImg.png" alt=""> 
+
+        </main>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
